@@ -1,0 +1,65 @@
+.graph-container {
+    padding: 0 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.graph-container>div {
+    height: 100%;
+    padding: 0 0 15px;
+    position: relative;
+}
+.graph-container>h2 {
+    margin-bottom: 0;
+}
+.graph-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.add-form {
+    margin: 0;
+    padding: 0 0 15px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+}
+.add-form>div { /*to target reactdatepicker container*/
+    width: 100%;
+}
+.add-form>div>input {
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+.add-form>div>input:focus {
+    border-bottom-color: #673ab7;
+}
+#submit {
+    margin: 15px 0 5px;
+    height: 40px;
+}
+
+.table-container>ul, .table-container>div {
+    width: 50%;
+    margin: 0;
+    max-height: 300px;
+    overflow: auto;
+    float: left;
+}
+.table-container>ul>li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 0 2px;
+    background: #eee;
+    cursor: pointer;
+}
+.table-container>ul>li.active {
+    font-weight: bold;
+    background: #673ab7;
+    color: #fff;
+}
+
+.graph {
+    position: relative;
+    padding: 0 15px;
+}

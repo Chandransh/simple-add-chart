@@ -8,7 +8,7 @@ import {bindActionCreators} from 'redux';
 import './graphTableView.css';
 // import * as AddData from '../../reducers/addData';
 import Input from '../../components/Input/Input';
-import ReactDatepicker from 'react-datepicker';
+import ReactDatepicker from 'react-datepicker/dist/react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import Moment from 'moment';
 
